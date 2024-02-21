@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5000/churn" method="post">
+        <p><label style="font-weight: bold;" for="fname">tenure:</label>
+        <input placeholder="Enter Tenture" type="text" id="tenure" name="tenure"></p>
+        <p><label style="font-weight: bold;" for="lname">MonthlyCharges:</label>
+        <input placeholder="Enter MonthlyCharges" type="text" id="MonthlyCharges" name="MonthlyCharges"></p>
+
+        <p><input type="submit" value="Register"></p>
+    </form>
+
+    <p>result is: {{prediction}}</p>
+</body>
+</html>
